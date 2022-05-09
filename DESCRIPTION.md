@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>rweverything.portable</id>
-    <version>1.7</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-rweverything.portable/tree/v1.7</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>RWEverything (Portable)</title>
-    <authors>Jeff Chan</authors>
-    <projectUrl>http://rweverything.com/</projectUrl>
-    <licenseUrl>http://rweverything.com/</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-rweverything.portable@a17d2d8f04410806c68a9ff8e032d7df79faed72/rweverything.portable.png</iconUrl>
-    <copyright>Copyright (c) 2003 Jeff Chan</copyright>
-    <tags>rweverything pci memory io sio dimm smbus msr ata atapi acpi usb smbios edid</tags>
-    <summary>Read &amp; Write Everything</summary>
-    <description><![CDATA[
+
 ---
 ### [choco://rweverything.portable](choco://rweverything.portable)
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
@@ -35,10 +18,3 @@ Powerful utility for hardware engineers, firmware (BIOS) engineers, driver devel
 ## **PACKAGE NOTES**
 
 Chocolatey will create a [shim](https://docs.chocolatey.org/en-us/features/shim) for `Rw.exe`, as is typical for a portable application package. However, this application was not designed for global execution. Therefore, you may experience issues when launching the GUI or using the command-line interface via the shim. Users requiring this functionality should pass the `--shimgen-usetargetworkingdirectory` switch for the application to run correctly.
-]]></description>
-    <releaseNotes>http://rweverything.com/changelog/</releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>

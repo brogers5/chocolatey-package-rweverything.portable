@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rweverything.portable</id>
-    <version>1.7</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-rweverything.portable/tree/v1.7</packageSourceUrl>
+    <version>1.7.0.20220602</version>
+    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-rweverything.portable/tree/v1.7.0.20220602</packageSourceUrl>
     <owners>sublym0nal</owners>
     <title>RWEverything (Portable)</title>
     <authors>Jeff Chan</authors>
